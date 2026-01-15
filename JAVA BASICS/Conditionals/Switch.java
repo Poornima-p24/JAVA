@@ -18,8 +18,8 @@ public class Switch {
                 System.out.println("it is four");
                 break; 
                 default:
-                    System.out.println("Invalid");
-                    break;
+                System.out.println("Invalid");
+                break;
         }
     }
 }
