@@ -1,7 +1,7 @@
 package BusReservationSystem.src;
 public class Bus
 {
-int busno;
+int busNo;
 boolean ac;
 int capacity;
 Bus(int no,boolean ac,int cap)
@@ -26,5 +26,7 @@ public void setCapacity(int cap)
     capacity=cap;
 }
 public void display()
-{}
+{
+    System.out.println("Bus No:" + busNo + " Ac:" + ac + " Total Capacity: " + capacity);
+}
 }
